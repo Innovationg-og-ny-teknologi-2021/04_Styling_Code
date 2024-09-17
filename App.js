@@ -20,7 +20,8 @@ export default function App() {
         screenOptions={({ route }) => ({
           headerStyle: {
               backgroundColor: '#FF0000',
-              borderRadius: 16,
+              borderBottomLeftRadius: 16,
+              borderBottomRightRadius: 16,
               shadowColor: '#000',
               shadowOpacity: 0.25,
               shadowRadius: 3.84,
@@ -33,7 +34,8 @@ export default function App() {
           },
           tabBarStyle: {
               backgroundColor: '#FF0000',
-              borderRadius: 16,
+              borderTopLeftRadius: 16,
+              borderTopRightRadius: 16,
               shadowColor: '#000',
               shadowOpacity: 0.25,
               shadowRadius: 3.84,
